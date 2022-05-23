@@ -1,26 +1,15 @@
 {
-  "name": "@playwind/com.google.play.appupdate",
+  "name": "com.google.play.appupdate",
   "displayName": "Google Play In-app Updates",
   "description": "Enables the user to install an app update without exiting to the Play Store.",
   "version": "1.7.0",
   "unity": "2017.4",
-  "author": "Google LLC",
+  "author": {
+    "name": "Google LLC"
+  },
   "dependencies": {
     "com.google.play.common": "1.7.0",
     "com.google.play.core": "1.7.0"
   },
-  "license": "Apache-2.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinatcg/GooglePlayAppUpdate.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/xinatcg/GooglePlayAppUpdate/issues"
-  },
-  "homepage": "https://github.com/xinatcg/GooglePlayAppUpdate#readme"
+  "license": "Apache-2.0"
 }
